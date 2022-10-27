@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Pamela's Diner reviews</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet"> 
+
+        <link rel="stylesheet" media="all" type="text/css" href="css/styles.css"/>
+        <link rel="stylesheet" media="all" type="text/css" href="css/jquery-ui.css"/>
+
+        <script src="js/jquery-3.6.0.min.js" ></script>
+        <script src="js/jquery-ui.min.js" ></script>
+        <script>
+            $(function() {
+                $( "#tabs" ).tabs({
+                    event:"click"
+                });
+            });
+        </script>
+    </head>
+
+
+    <body style = "background-color: #F9ECAF;">
+        <div id="top_row">
+            <header>
+                <a href="index.html" title="Go to Home"><img src="images/pamelaslogo.webp" alt="Pamela's logo" style="width: 125px;"/></a>
+            <nav>
+                <a href="index.html" title="Go to Home">Home</a> |
+                <a href="menu.html" title="Go to Menu">Menu</a> |
+                <a href="locations.html" title="Go to locations">Locations</a> |
+                <a href="reviews.html" class="selected" title="Go to reviews">Reviews</a> |
+                <a href="https://www.toasttab.com/pamela-s-diner-strip-district-60-21st-street/v3" 
+                target="blank_" title="Go to online ordering">Order online</a> |
+                <a href="apply.html" title="Go to Mailing list">Mailing list</a>
+            </nav>
+            </header>
+        </div>
+        <!--Types of reviews are split into tabs-->
+        <div id="tabs">
+            <ul>
+                <li><a href="#tabs-1" title="Trip Advisor reviews">Trip Advisor</a></li>
+                <li><a href="#tabs-2" title="Google reviews">Google Reviews</a></li>
+                <li><a href="#tabs-3" title="Youtube review">Youtube</a></li>
+            </ul>
+            <!--Trip advisor reviews + link to trip advisor website-->
+            <div id="tabs-1">
+                <img src="images/TripAdvisor1.webp" alt="TripAdvisor Review 1" style="width: 500px">
+                <img src="images/TripAdvisor2.webp" alt="TripAdvisor Review 2" style="width: 500px">
+                <img src="images/TripAdvisor4.webp" alt="TripAdvisor Review 4" style="width: 500px;">
+                <img src="images/TripAdvisor5.webp" alt="TripAdvisor Review 5" style="width: 500px;">
+                <img src="images/TripAdvisor6.webp" alt="TripAdvisor Review 6" style="width: 500px;">
+                <br/>
+                <a href="https://www.tripadvisor.com/Restaurant_Review-g53449-d3599818-Reviews-Pamela_s_Diner-Pittsburgh_Pennsylvania.html?m=19905" title="Go to Pamela's TripAdvisor page">
+                    <img src="images/TripAdvisor_logo.png" alt="TripAdvisor logo" style="width: 40px">
+                </a>
+            </div>
+            <!--Google reviews-->
+            <div id="tabs-2">
+                <img src="images/GoogleReview1.webp" alt="Google Review 1" style="width:500px">
+                <img src="images/GoogleReview2.webp" alt="Google Review 2" style="width:500px">
+                <img src="images/GoogleReview3.webp" alt="Google Review 3" style="width:500px">
+                <img src="images/GoogleReview4.webp" alt="Google Review 4" style="width:500px">
+                <img src="images/GoogleReview5.webp" alt="Google Review 5" style="width:500px">
+                <img src="images/GoogleReview6.webp" alt="Google Review 6" style="width:500px">
+                <img src="images/GoogleReview7.webp" alt="Google Review 7" style="width:500px">
+            </div>
+            <!--Youtube video review embed-->
+            <div id="tabs-3">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Rb0Dw2t-nTE" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+        <footer>&copy;2022 Pamela's Diner <br/> 
+            Contact us at: (412) 281-6366 or at <a href="mailto:pam@pamelasdiner.com" title="Go to Pamela's email" target="_blank">pam@pamelasdiner.com</a><br>
+            <br/>Check out our socials! &nbsp;
+            <a href="https://www.instagram.com/pamelasdiner/?hl=en" title="Go to Pamela's Instagram"><img src="images/insta_logo.png" alt="Instagram Icon" style="width:20px; height:20px"></a>
+            <a href="https://www.facebook.com/pamelasdiner/" title="Go to Pamela's Facebook"><img src="images/facebook_logo.png" alt="Facebook Logo" style="width:20px; height:20px"></a>
+        </footer>
+    </body>
+</html>

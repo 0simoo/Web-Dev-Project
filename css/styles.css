@@ -1,0 +1,163 @@
+body {
+    font-family: Cambria, Georgia, sans-serif;
+    font-size: 100%;
+    line-height: 1.7em;
+    color: #000000;
+}
+
+#top_row {
+    margin-bottom: 2em;
+    z-index: 1;
+}
+#top_row a {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.125em;
+    font-weight: 400;
+    padding: 5px;
+    color: #252215;
+}
+#top_row nav {
+    padding-top: 4%;
+    padding-right: 5%;
+    z-index: 0;
+    float: right;
+}
+#top_row nav a.selected {
+    background: #f7e69d;
+    color: #E573DB;
+
+}
+#top_row nav a.selected:hover {
+    background: #f7e69d;
+    color: #0f4970;
+}
+#top_row nav a:hover {
+    background: #f7e69d;
+    color: #0f4970;
+}
+
+header {
+    padding-left: 1%;
+    border-bottom: 1px solid #252215;
+}
+
+footer {
+    font-family: Cambria, Georgia, sans-serif;
+    clear: both;/*specificies which side(s) of an element other floating elements are not allowed */
+    margin: 0;
+    padding: .5em;
+    color: #252215;
+    font-variant: small-caps;
+    font-size: .813em;
+    text-align: center;
+    border-top: 1px dotted #cccccc;
+}
+#footer-social {
+    float: right;
+}
+
+#pamela_storefront {
+    text-align: center;
+}
+#pamela_storefront p {
+    font-size: 10px;
+    padding-right: 64%;
+}
+
+form {
+    width: 35%;
+    margin: auto;
+    float: left;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #252215;
+    padding: 10px;
+}
+
+#content-gallery {
+    text-align: center;
+}
+
+#gallery {
+    display:flex;
+    justify-content: center;
+}
+
+#strip_map {
+    float: right;
+    margin-right: 2%;
+}
+
+#strip_image {
+    padding-left: 2%;
+    float: left;
+}
+
+#strip_image img {
+    border: 1px solid #000000;
+}
+
+#strip_image p {
+    font-size: .75em;
+}
+
+#hours {
+    display:flex;
+    justify-content: center;   
+}
+
+#hours h3 {
+    font-family: 'Oswald', sans-serif;
+}
+
+#hours ul {
+    font: Cambria, Georgia, sans-serif;
+    font-size: .85em;
+}
+
+table {
+    width: 50%;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #075f8a;
+    border-spacing: 3px;
+    margin: auto;
+    table-layout: auto;
+    border-collapse: collapse;
+}
+th {
+    font: Cambria, Georgia, sans-serif;
+    height: 40px;
+    font-weight: bold;
+}
+th,td {
+    font: Cambria, Georgia, sans-serif;
+    padding: 2px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    color: #333333;
+}
+
+#tabs {
+    text-align: center;
+    background-color: #f4e089;
+}
+
+#button_div {
+    text-align: center;
+}
+
+#menu_head {
+    text-align: center;
+    font:  Cambria, Georgia, sans-serif;
+}
+
+#mailing_list_image {
+    float: right;
+    padding-right: 200px;
+}
+
+#mailing_list_image p{
+    font-size: 10px;
+}
